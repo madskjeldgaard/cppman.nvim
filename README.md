@@ -25,6 +25,11 @@ use {
 			cppman.open_cppman_for(vim.fn.expand("<cword>"))
 		end)
 
+		-- Open search box
+		vim.keymap.set("n", "<leader>cc", function()
+			cppman.input()
+		end)
+
 	end
 }
 ```
