@@ -14,7 +14,7 @@ Install using packer. Note that [nui.nvim](https://github.com/MunifTanjim/nui.nv
 ```lua
 -- cppman
 use {
-	"~/code/vim/cppman.nvim",
+	'madskjeldgaard/cppman.nvim',
 	requires = {
 		{ 'MunifTanjim/nui.nvim' }
 	},
