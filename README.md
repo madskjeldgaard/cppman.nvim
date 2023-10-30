@@ -10,7 +10,6 @@ Plugin inspired by [vim-cppman](https://github.com/gauteh/vim-cppman)
 
 Install using packer. Note that [nui.nvim](https://github.com/MunifTanjim/nui.nvim) is a requirement.
 
-
 ```lua
 -- cppman
 use {
@@ -39,3 +38,9 @@ use {
 ## Usage
 
 Run `:CPPMan` without any arguments to get a search prompt or with an argument to search for a term: `:CPPMan std::array`
+
+## Navigation
+Once the manual has been open it's possible to navigate through the documentation using the same keybindings of the standalone cppman program, in normal mode:
+* **K**, **<C-]>** and **<2-LeftMouse>**: allows to follow the word under cursor
+* **\<C-T\>** and **\<RightMouse\>**: go back to the previous page
+
